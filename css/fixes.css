@@ -1,8 +1,9 @@
-mount {
-    left: 0;  
-    z-index: 10; 
-    position: absolute; 
-    background-color: white;
-    width: 100vw; 
-    height: 70px;
+.mount {
+    display: none; left: 0;  z-index: 10; position: absolute; background-color: white; width: 1080px; height: 70px;
 }
+@media (max-width: 767.98px) {
+    .mount {
+        display: block;
+    }
+}
+

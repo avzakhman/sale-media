@@ -248,7 +248,6 @@ function EventBurrito(a, b) { function c(a, b) { for (var c in b) b.hasOwnProper
 
 var slider = Peppermint(document.getElementById('slider'), {
 	dots: true,
-	slideshow: true,
 	speed: 800,
 	stopSlideshowAfterInteraction: true,
 	startSlide: 0,
