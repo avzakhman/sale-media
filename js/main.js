@@ -296,7 +296,7 @@ DynamicAdapt.prototype.init = function () {
 		оbject.element = node;
 		оbject.parent = node.parentNode;
 		оbject.destination = document.querySelector(dataArray[0].trim());
-		оbject.breakpoint = dataArray[1] ? dataArray[1].trim() : "767";
+		оbject.breakpoint = dataArray[1] ? dataArray[1].trim() : "600";
 		оbject.place = dataArray[2] ? dataArray[2].trim() : "last";
 		оbject.index = this.indexInParent(оbject.parent, оbject.element);
 		this.оbjects.push(оbject);
