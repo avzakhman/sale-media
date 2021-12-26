@@ -1534,7 +1534,7 @@ body._lock {
     }
 }
 
-@media (min-width: 991.98px) {
+@media (min-width: 1161.98px) {
     .header__menu-item span>a:hover {
         color: #cc4391;
         border-top: 4px solid #cc4391
@@ -1915,7 +1915,7 @@ body._lock {
 
 .services {
     padding-bottom: 33px;
-    background-image: url("../img/bg_02.png");
+    background-image: url("../img/bg_02.svg");
     max-width: 100%;
     background-position: 0 380px;
     background-size: cover;
