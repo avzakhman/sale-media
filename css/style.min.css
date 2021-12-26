@@ -2455,7 +2455,7 @@ body._lock {
     transition: all 0.2s
 }
 
-@media (max-width: 600.98px) {
+@media (max-width: 767.98px) {
     .do__items a {
         padding: 20px
     }
@@ -2912,7 +2912,7 @@ body._lock {
     display: none
 }
 
-@media (min-width: 600.98px) {
+@media (min-width: 767.98px) {
     .sub-menu ul {
         display: none !important;
         max-width: 189px;
@@ -3319,7 +3319,7 @@ body._lock {
     }
 }
 
-@media (max-width: 600.98px) {
+@media (max-width: 767.98px) {
     .fixed-banner {
         display: none
     }
@@ -3381,7 +3381,7 @@ body._lock {
     }
 }
 
-@media (max-width: 600.98px) {
+@media (max-width: 767.98px) {
     .fixed-mob__column .fixed-mob__icon {
         position: absolute;
         left: 16px
@@ -3750,7 +3750,7 @@ body._lock {
     grid-column-gap: 20px
 }
 
-@media (min-width: 600.98px) {
+@media (min-width: 767.98px) {
     .questions__socials {
         -webkit-transform: translate(25px, 0px);
         -ms-transform: translate(25px, 0px);
@@ -3925,7 +3925,7 @@ body._lock {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .top-slider__title {
         max-width: 100% !important;
         margin: 55px 0px 0;
@@ -3948,7 +3948,7 @@ body._lock {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .slider__indicators {
         padding: 0px 0px 58px 0px !important;
         display: -webkit-box;
@@ -3979,7 +3979,7 @@ body._lock {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .top-slider__box {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -4064,7 +4064,7 @@ body._lock {
     }
 }
 
-@media (max-width: 600.98px) {
+@media (max-width: 767.98px) {
     .services__bottom {
         margin: 25px -20px !important;
         border-radius: 0px !important;
@@ -4659,7 +4659,7 @@ a {
     }
 }
 
-@media (max-width: 991.98px) and (max-width: 600.98px) {
+@media (max-width: 991.98px) and (max-width: 767.98px) {
 
     ._swiper-mob .services__item,
     ._swiper-mob .swiper-slide {
@@ -4685,7 +4685,7 @@ a {
     }
 }
 
-@media (max-width: 991.98px) and (max-width: 600.98px) {
+@media (max-width: 991.98px) and (max-width: 767.98px) {
     ._swiper-mob .benefits__item {
         max-width: 278px
     }
@@ -4715,7 +4715,7 @@ a {
     }
 }
 
-@media (min-width: 600.98px) {
+@media (min-width: 767.98px) {
     .fixed-mob {
         display: none
     }
