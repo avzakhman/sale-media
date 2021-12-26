@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div class="wrapper">
+	<div class="wrapper" style="max-width: 100vw; overflow: hidden;">
 		<header class="header">
 			<div class="_container">
 				<div class="header__wrapper">
@@ -875,64 +875,6 @@
 					</div>
 				</div>
 			</section>
-
-			<div class="popup popup_send">
-				<div class="popup__content">
-					<div class="popup__body">
-						<div class="popup__close">
-							<img src="icons/close.svg" alt="icons">
-						</div>
-						<div class="sendPopup__title">
-							<span>Куда</span> отправить портфолио?
-						</div>
-						<form class="sendPopup__form" action="#">
-							<div class="sendPopup__social-btns">
-								<div class="sendPopup__social-btn">
-									<img src="icons/socials/telegram.svg" alt="" class="sendPopup__img">
-									Telegram
-								</div>
-								<div class="sendPopup__social-btn sendPopup__social-btn--active">
-									<img src="icons/socials/whatsapp.svg" alt="" class="sendPopup__img">
-		
-		
-									Whatsapp
-								</div>
-								<div class="sendPopup__social-btn">
-									<img src="icons/socials/viber.svg" alt="" class="sendPopup__img">
-		
-		
-									Viber
-								</div>
-							</div>
-							<h5 class="sendPopup__subtitle">
-								Укажите имя аккаунта или номер телефона
-							</h5>
-							<input class="sendPopup__input" type="text" placeholder="имя аккаунта или номер телефона">
-							<button class="sendPopup__button" type="submit">ЗАПРОСИТЬ</button>
-						</form>
-					</div>
-				</div>
-			</div>
-			<div class="popup popup_quePopup">
-				<div class="popup__content">
-					<div class="popup__body">
-						<div class="popup__close ">
-							<img src="icons/close.svg" alt="close">
-						</div>
-						<div class="quePopup__title">
-							Напишите нам и мы обязательно <span>поможем</span> вам!
-						</div>
-						<div class="quePopup__box">
-							<a class="quePopup__link" style="background-image: url(icons/socials/telegram.svg);" href="#">Написать в
-								<i><b>Telegram</b></i></a>
-							<a class="quePopup__link" style="background-image: url(icons/socials/whatsapp.svg);" href="#">Написать в
-								<i><b>WhatsApp</b></i></a>
-							<a class="quePopup__link" style="background-image: url(icons/socials/viber.svg);" href="#">Написать в
-								<i><b>Viber</b></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
 		</main>
 
 		<footer class="footer">
@@ -981,7 +923,63 @@
 				</div>
 			</div>
 		</footer>
-
+		<div class="popup popup_send">
+			<div class="popup__content">
+				<div class="popup__body">
+					<div class="popup__close">
+						<img src="icons/close.svg" alt="icons">
+					</div>
+					<div class="sendPopup__title">
+						<span>Куда</span> отправить портфолио?
+					</div>
+					<form class="sendPopup__form" action="#">
+						<div class="sendPopup__social-btns">
+							<div class="sendPopup__social-btn">
+								<img src="icons/socials/telegram.svg" alt="" class="sendPopup__img">
+								Telegram
+							</div>
+							<div class="sendPopup__social-btn sendPopup__social-btn--active">
+								<img src="icons/socials/whatsapp.svg" alt="" class="sendPopup__img">
+	
+	
+								Whatsapp
+							</div>
+							<div class="sendPopup__social-btn">
+								<img src="icons/socials/viber.svg" alt="" class="sendPopup__img">
+	
+	
+								Viber
+							</div>
+						</div>
+						<h5 class="sendPopup__subtitle">
+							Укажите имя аккаунта или номер телефона
+						</h5>
+						<input class="sendPopup__input" type="text" placeholder="имя аккаунта или номер телефона">
+						<button class="sendPopup__button" type="submit">ЗАПРОСИТЬ</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="popup popup_quePopup">
+			<div class="popup__content">
+				<div class="popup__body">
+					<div class="popup__close ">
+						<img src="icons/close.svg" alt="close">
+					</div>
+					<div class="quePopup__title">
+						Напишите нам и мы обязательно <span>поможем</span> вам!
+					</div>
+					<div class="quePopup__box">
+						<a class="quePopup__link" style="background-image: url(icons/socials/telegram.svg);" href="#">Написать в
+							<i><b>Telegram</b></i></a>
+						<a class="quePopup__link" style="background-image: url(icons/socials/whatsapp.svg);" href="#">Написать в
+							<i><b>WhatsApp</b></i></a>
+						<a class="quePopup__link" style="background-image: url(icons/socials/viber.svg);" href="#">Написать в
+							<i><b>Viber</b></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="fixed-banner">
 			<div class="_container">
 				<div class="fixed-banner__wrapper">
@@ -1015,10 +1013,6 @@
 			</div>
 		</div>
 	</div>
-
-
-
-
 	<script src="js/main.js"></script>
 </body>
 
