@@ -1920,7 +1920,7 @@ body._lock {
     background-position: 0 380px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #f4f4f4
+    background-color: #f4f4f4;
 }
 
 @media (min-width: 991.98px) {
@@ -1951,7 +1951,8 @@ body._lock {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
-    position: relative
+    position: relative;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 479.98px) {
@@ -2034,7 +2035,7 @@ body._lock {
     margin: 0 40px 40px;
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
-    transition: all 0.2s
+    transition: all 0.2s;
 }
 
 @media (max-width: 479.98px) {
@@ -2077,7 +2078,7 @@ body._lock {
 }
 
 .services__bottom {
-    margin: 20px 0 80px;
+    margin: 20px 0 80px 0;
     padding: 45px 40px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2089,7 +2090,7 @@ body._lock {
     -ms-flex-align: center;
     align-items: center;
     background: #fff;
-    border-radius: 20px
+    border-radius: 20px;
 }
 
 @media (max-width: 991.98px) {
@@ -2402,7 +2403,11 @@ body._lock {
     font-size: 14px;
     line-height: 20px;
     color: #2c2f31;
-    margin-top: 7px
+    margin-top: 7px;
+}
+.work__item-text span {
+    font-style: italic;
+    font-weight: 700;
 }
 
 .do {
