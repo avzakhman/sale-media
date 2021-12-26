@@ -14,11 +14,12 @@
 		<header class="header">
 			<div class="_container">
 				<div class="header__wrapper">
-					<a class="header__logo-link" href="#">
+					<div class="mount" style=" left: 0;  z-index: 10; position: absolute; background-color: white; width: 1080px; height: 70px;"></div>
+					<a class="header__logo-link" href="#" style="z-index: 11;">
 						<img class="header__logo-img" src="icons/logo-black.svg" alt="logo">
 						<p class="header__text">Делаем сайты на 1С Битрикс</p>
 					</a>
-					<nav class="header__menu menu__body">
+					<nav class="header__menu menu__body" style=" margin-top: 3px; z-index: 9;">
 						<ul class="header__menu-list">
 							<li class="header__menu-item">
 								<span><a class="header__menu-link" href="#">социальные сети</a></span>
@@ -161,12 +162,12 @@
 							</li>
 						</ul>
 					</nav>
-					<div class="menu__icon icon-menu">
+					<div class="menu__icon icon-menu" style="z-index: 11;">
 						<span></span>
 						<span></span>
 						<span></span>
 					</div>
-					<a class="header__tel-link" href="tel:74951288976">
+					<a class="header__tel-link" href="tel:74951288976" style="z-index: 11;">
 						+7 495 128-8976
 					</a>
 				</div>
@@ -180,7 +181,7 @@
 			<section class="top-slider">
 				<div class="_container-1920">
 					<div class="top-slider__slider slider" id="slider">
-						<div class="top-slider__slide " style="background-image: url('images/bg.svg');">
+						<div class="top-slider__slide " style="background-image: url('img/bg.png');">
 							<div class="_container">
 								<h1 class="top-slider__title">
 									Создаем cайты, приносящие <span>прибыль</span>
@@ -201,7 +202,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="top-slider__slide " style="background-image: url('images/bg.svg');">
+						<div class="top-slider__slide " style="background-image: url('img/bg.png');">
 							<div class="_container">
 								<div class="top-slider__title">
 									Создаем cайты, приносящие <span>прибыль</span>
@@ -222,7 +223,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="top-slider__slide " style="background-image: url('images/bg.svg');">
+						<div class="top-slider__slide " style="background-image: url('img/bg.png');">
 							<div class="_container">
 								<div class="top-slider__title">
 									Создаем cайты, приносящие <span>прибыль</span>
@@ -243,7 +244,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="top-slider__slide " style="background-image: url('images/bg.svg');">
+						<div class="top-slider__slide " style="background-image: url('img/bg.png');">
 							<div class="_container">
 								<div class="top-slider__title">
 									Создаем cайты, приносящие <span>прибыль</span>
@@ -264,7 +265,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="top-slider__slide " style="background-image: url('images/bg.svg');">
+						<div class="top-slider__slide " style="background-image: url('img/bg.png');">
 							<div class="_container">
 								<div class="top-slider__title">
 									Создаем cайты, приносящие <span>прибыль</span>
@@ -289,14 +290,10 @@
 
 					</div>
 					<span class="slider__control slider__control_prev" role="button" data-slide="prev">
-						<svg class="top-slider__arrow-prev-img">
-							<use xlink:href="images/sprite.svg#top-slider-prev"></use>
-						</svg>
+						<img class="top-slider__arrow-prev-img" src="icons/chevron-left.svg" alt="left">
 					</span>
 					<span class="slider__control slider__control_next" href="#" role="button" data-slide="next">
-						<svg class="top-slider__arrow-next-img">
-							<use xlink:href="images/sprite.svg#top-slider-next"></use>
-						</svg>
+						<img class="top-slider__arrow-next-img" src="icons/chevron-right.svg" alt="right">
 					</span>
 				</div>
 
@@ -377,7 +374,7 @@
 									<span class="services__promo">-25%</span>
 									<span class="services__price">Цена от 138 000 ₽</span>
 									<h3 class="services__item-title">
-										Лэндинг страницы
+										Поисковая оптимизация
 									</h3>
 									<p class="services__item-text">
 										Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.
@@ -404,9 +401,8 @@
 									<img class="services__item-img" src="img/services/04.png" alt="">
 								</div>
 								<div class="services__item-box">
-									<span class="services__promo">АКЦИЯ</span>
 									<h3 class="services__item-title">
-										Лэндинг страницы
+										Таргетированная реклама
 									</h3>
 									<p class="services__item-text">
 										Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.
@@ -418,12 +414,9 @@
 								<div class="services__img">
 									<img class="services__item-img" src="img/services/05.png" alt="">
 								</div>
-								<div class="services__toppromo">Оптимальное предложение!</div>
 								<div class="services__item-box">
-									<span class="services__promo">-25%</span>
-									<span class="services__price">Цена от 138 000 ₽</span>
 									<h3 class="services__item-title">
-										Лэндинг страницы
+										Интернет магазин
 									</h3>
 									<p class="services__item-text">
 										Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.
@@ -436,8 +429,9 @@
 									<img class="services__item-img" src="img/services/06.png" alt="">
 								</div>
 								<div class="services__item-box">
+									<span class="services__promo">АКЦИЯ</span>
 									<h3 class="services__item-title">
-										Маркетинг в социальных сетях
+										Мобильное приложение
 									</h3>
 									<p class="services__item-text">
 										Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.
@@ -526,13 +520,11 @@
                                     <img class="benefits__item-img" src="icons/check-circle.svg" alt="check-circle">
 
 									<h3 class="benefits__item-title">
-										Опыт создания сайтов разных форматов
+										Опыт работы над сложными проектами
 									</h3>
 								</div>
 								<p class="benefits__item-text">
-									Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные IT системы,
-									мобильные
-									приложения
+									Разрабатываем оригинальные решения для реализации нестандартных задач клиента
 								</p>
 							</div>
 							<div class="benefits__item swiper-slide">
@@ -540,13 +532,11 @@
                                     <img class="benefits__item-img" src="icons/check-circle.svg" alt="check-circle">
 
 									<h3 class="benefits__item-title">
-										Опыт создания сайтов разных форматов
+										Работаем с учетом бизнес-процессов
 									</h3>
 								</div>
 								<p class="benefits__item-text">
-									Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные IT системы,
-									мобильные
-									приложения
+									При разработке сайтов по продаже услуг или сложной продукции (например, промышленное производство) учитываем особенности построения бизнес-процессов компании, что увеличивает приток заказов онлайн
 								</p>
 							</div>
 							<div class="benefits__item swiper-slide">
@@ -554,13 +544,11 @@
                                     <img class="benefits__item-img" src="icons/check-circle.svg" alt="check-circle">
 
 									<h3 class="benefits__item-title">
-										Опыт создания сайтов разных форматов
+										Проект от начала до его сдачи ведет персональный менеджер
 									</h3>
 								</div>
 								<p class="benefits__item-text">
-									Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные IT системы,
-									мобильные
-									приложения
+									Менеджер проекта вникнет в суть вашей задачи, подберет оптимальное по цене и качеству решение, оперативно решит все возникающие в процессе работы вопросы
 								</p>
 							</div>
 							<div class="benefits__item swiper-slide">
@@ -568,13 +556,11 @@
                                     <img class="benefits__item-img" src="icons/check-circle.svg" alt="check-circle">
 
 									<h3 class="benefits__item-title">
-										Опыт создания сайтов разных форматов
+										Реанимируем проекты на любой стадии
 									</h3>
 								</div>
 								<p class="benefits__item-text">
-									Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные IT системы,
-									мобильные
-									приложения
+									Если ваш подрядчик не справился с проектом, поможем доработать его «под ключ»
 								</p>
 							</div>
 						</div>
@@ -683,10 +669,7 @@
 								<div class="work__item-wrapper">
 									<img src="icons/check-circle.svg" alt="check-circle">
 									<p class="work__item-text">
-										Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные IT
-										системы,
-										мобильные
-										приложения
+										Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные
 									</p>
 								</div>
 							</div>
@@ -697,10 +680,7 @@
 								<div class="work__item-wrapper">
 									<img src="icons/check-circle.svg" alt="check-circle">
 									<p class="work__item-text">
-										Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные IT
-										системы,
-										мобильные
-										приложения
+										Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца
 									</p>
 								</div>
 							</div>
@@ -711,10 +691,7 @@
 								<div class="work__item-wrapper">
 									<img src="icons/check-circle.svg" alt="check-circle">
 									<p class="work__item-text">
-										Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные IT
-										системы,
-										мобильные
-										приложения
+										Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки
 									</p>
 								</div>
 							</div>
@@ -725,10 +702,7 @@
 								<div class="work__item-wrapper">
 									<img src="icons/check-circle.svg" alt="check-circle">
 									<p class="work__item-text">
-										Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные IT
-										системы,
-										мобильные
-										приложения
+										Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите 
 									</p>
 								</div>
 							</div>
@@ -739,10 +713,7 @@
 								<div class="work__item-wrapper">
 									<img src="icons/check-circle.svg" alt="check-circle">
 									<p class="work__item-text">
-										Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные IT
-										системы,
-										мобильные
-										приложения
+										Среди наших проектов - интернет-магазины, интернет-порталы, корпоративные IT системы, мобильные приложения
 									</p>
 								</div>
 							</div>
@@ -963,11 +934,7 @@
 				</div>
 			</div>
 			<div class="fixed-banner__close">
-				<svg class="fixed-banner__close-img">
-					<use class="normal" xlink:href="icons/close.svg"></use>
-					<use class="hover" xlink:href="icons/close_active.svg"></use>
-
-				</svg>
+				<img class="fixed-banner__close-img" src="icons/close.svg" alt="close">
 			</div>
 		</div>
 		<div class="fixed-mob">
@@ -975,7 +942,7 @@
 				<div class="fixed-mob__row">
 					<a href="#quePopup" class="fixed-mob__column _popup-link">
 						<div class="fixed-mob__icon">
-							<img src="images/quePopup/2.png" alt="">
+							<img src="icons/socials/whatsapp.svg" alt="">
 						</div>
 						<div class="fixed-mob__name">Whatsapp</div>
 					</a>
@@ -993,11 +960,7 @@
 		<div class="popup__content">
 			<div class="popup__body">
 				<div class="popup__close">
-					<svg>
-						<use class="normal" xlink:href="images/sprite.svg#close-btn"></use>
-						<use class="hover" xlink:href="images/sprite.svg#close-btn-hv"></use>
-
-					</svg>
+					<img src="icons/close.svg" alt="icons">
 				</div>
 				<div class="sendPopup__title">
 					<span>Куда</span> отправить портфолио?
@@ -1005,17 +968,17 @@
 				<form class="sendPopup__form" action="#">
 					<div class="sendPopup__social-btns">
 						<div class="sendPopup__social-btn">
-							<img src="images/quePopup/1.png" alt="" class="sendPopup__img">
+							<img src="icons/socials/telegram.svg" alt="" class="sendPopup__img">
 							Telegram
 						</div>
 						<div class="sendPopup__social-btn sendPopup__social-btn--active">
-							<img src="images/quePopup/2.png" alt="" class="sendPopup__img">
+							<img src="icons/socials/whatsapp.svg" alt="" class="sendPopup__img">
 
 
 							Whatsapp
 						</div>
 						<div class="sendPopup__social-btn">
-							<img src="images/quePopup/3.png" alt="" class="sendPopup__img">
+							<img src="icons/socials/viber.svg" alt="" class="sendPopup__img">
 
 
 							Viber
@@ -1034,21 +997,17 @@
 		<div class="popup__content">
 			<div class="popup__body">
 				<div class="popup__close ">
-					<svg>
-						<use class="normal" xlink:href="images/sprite.svg#close-btn"></use>
-						<use class="hover" xlink:href="images/sprite.svg#close-btn-hv"></use>
-
-					</svg>
+					<img src="icons/close.svg" alt="close">
 				</div>
 				<div class="quePopup__title">
 					Напишите нам и мы обязательно <span>поможем</span> вам!
 				</div>
 				<div class="quePopup__box">
-					<a class="quePopup__link" style="background-image: url(images/quePopup/1.png);" href="#">Написать в
+					<a class="quePopup__link" style="background-image: url(icons/socials/telegram.svg);" href="#">Написать в
 						<i><b>Telegram</b></i></a>
-					<a class="quePopup__link" style="background-image: url(images/quePopup/2.png);" href="#">Написать в
+					<a class="quePopup__link" style="background-image: url(icons/socials/whatsapp.svg);" href="#">Написать в
 						<i><b>WhatsApp</b></i></a>
-					<a class="quePopup__link" style="background-image: url(images/quePopup/3.png);" href="#">Написать в
+					<a class="quePopup__link" style="background-image: url(icons/socials/viber.svg);" href="#">Написать в
 						<i><b>Viber</b></i></a>
 				</div>
 			</div>
